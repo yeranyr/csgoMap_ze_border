@@ -215,7 +215,6 @@ l1_elev_add1 <- TEXT_BEFOR + "小货梯\x04 30秒 \x06后离开" + TEXT_AFTER
 l3_elev_ground <- TEXT_BEFOR + "通往地表的电梯\x04 30秒 \x06后离开" + TEXT_AFTER
 
 l3g_door1 <- TEXT_BEFOR + "停机坪大门\x04 20秒 \x06后打开" + TEXT_AFTER
-l3g_door1_ob <- TEXT_BEFOR + "障碍\x04 10秒 \x06后清除" + TEXT_AFTER
 l3g_ob_case1 <- TEXT_BEFOR + "道路\x04 20秒 \x06后打开" + TEXT_AFTER
 l3g_door2 <- TEXT_BEFOR + "实验室大门\x04 30秒 \x06后打开" + TEXT_AFTER
 
