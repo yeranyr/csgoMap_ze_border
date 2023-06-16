@@ -83,6 +83,7 @@ map_message_lv3 <- TEXT_BEFOR + "\x04第三关\x06" + TEXT_AFTER
 admin_l1 <- TEXT_BEFOR + "\x04管理员选择了第一关\x06" + TEXT_AFTER
 admin_l2 <- TEXT_BEFOR + "\x04管理员选择了第二关\x06" + TEXT_AFTER
 admin_l3 <- TEXT_BEFOR + "\x04管理员选择了第三关\x06" + TEXT_AFTER
+admin_rtv <- TEXT_BEFOR + "\x04管理员选择了RTV关\x06" + TEXT_AFTER
 
 
 
@@ -230,3 +231,5 @@ lab_end1 <- TEXT_BEFOR + "核心迁跃实验即将启动" + TEXT_AFTER
 lab_end2 <- TEXT_BEFOR + "这是最后的防守了" + TEXT_AFTER
 lab_end3 <- TEXT_BEFOR + "传送门道路\x04 45秒 \x06后打开" + TEXT_AFTER
 
+
+rtv_end <- TEXT_BEFOR + "\x04 60秒 \x06" + TEXT_AFTER

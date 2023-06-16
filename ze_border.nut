@@ -104,4 +104,15 @@ function Item_Unstable_Element_Ezwin()//Ezwin保护
     EntFireByHandle(player_ezwin, "Addoutput", "origin 10084 9423 3031", 0, null, null)
     EntFireByHandle(player_ezwin, "Addoutput", "origin 9568 4267 460", 0.5, null, null)
 }
+////////////////////////////////////////
+function player_RTV() {
+    player <- null;
+    while(player = Entities.FindByClassname(player,"player"))
+	{
+		if(player.GetHealth() > 0){
+            //EntFireByHandle(target, action, value, delay, activator, caller)
+            EntFire("Speed", "ModifySpeed", "1.75", 0, player)
+        }
+	}
 
+}
