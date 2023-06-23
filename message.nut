@@ -71,6 +71,7 @@ map_message_mapper <- TEXT_BEFOR + "Map by\x04 Hez \x06" + TEXT_AFTER
 map_message_warmup1 <- TEXT_BEFOR + "热身时间" + TEXT_AFTER
 map_message_warmup2 <- TEXT_BEFOR + "感谢\x04 港村村长\x06 在部分造景灵感方面的帮助" + TEXT_AFTER
 map_message_warmup3 <- TEXT_BEFOR + "感谢\x04 7ychu5\x06 提供的选取编译软件的建议" + TEXT_AFTER
+map_message_warmup4 <- TEXT_BEFOR + "感谢 \x04 paranoid\x06 进行英文版本的翻译" + TEXT_AFTER
 
 map_message_1 <- TEXT_BEFOR + "Current Location: \x04UNKOWN\x06" + TEXT_AFTER
 map_message_2 <- TEXT_BEFOR + "当前位置：\x04未知\x06" + TEXT_AFTER
