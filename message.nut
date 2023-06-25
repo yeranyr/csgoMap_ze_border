@@ -223,7 +223,7 @@ l3g_door2 <- TEXT_BEFOR + "实验室大门\x04 30秒 \x06后打开" + TEXT_AFTER
 lab_plat <- TEXT_BEFOR + "平台\x04 10秒 \x06后上升" + TEXT_AFTER
 lab_door2 <- TEXT_BEFOR + "隐藏门\x04 20秒 \x06后打开" + TEXT_AFTER
 
-lab_door5 <- TEXT_BEFOR + "门\x04 40秒 \x06后打开" + TEXT_AFTER
+lab_door5 <- TEXT_BEFOR + "门\x04 10秒 \x06后打开" + TEXT_AFTER
 lab_door6 <- TEXT_BEFOR + "门\x04 10秒 \x06后打开" + TEXT_AFTER
 
 lab_door8 <- TEXT_BEFOR + "核心实验室门\x04 15秒 \x06后打开" + TEXT_AFTER

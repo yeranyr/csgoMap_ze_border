@@ -28,24 +28,12 @@ function zone_sub(){
 }
 function show_number(){
 	EntFire("show_num","AddOutput","message [player number " + zone_count + "]",0);
-
 }
 
 function confirm_number() {
 	player_number = zone_count;
 }
 
-function init(){
-
-	turret_health = player_number * TURRET_SHIELD_HEALTH_PER
-	EntFire("l1_turret_shield", "SetHealth",  turret_health , 0)
-
-//跑图提醒
-	if(player_number < 10){
-		Chat("\x06[跑图提醒][玩家人数\x04 " + player_number + " \x06][\x06炮台屏障血量\x04 " + turret_health + "\x06 屏障只会受到爆炸和劈砍类伤害]")
-	}
-
-}
 function player_init()
 {
 	player <- null;
